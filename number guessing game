@@ -1,0 +1,33 @@
+import random
+rnum = random.randint(1,1000)
+
+a = 10
+
+### main function
+def compare(num):
+    global a
+    a -= 1
+    if num < rnum :
+        print( f"number of tries left {a} /" ,"choose a bigger number\n")
+        return False
+    if num > rnum :
+        print(f"number of tries left {a}  /" , "choose a smaller number\n")
+        return False
+    if num == rnum :
+        print("correct number !\n")
+        return True
+
+
+    
+while  a > 0:
+    b = compare(int(input("choose a number 1-1000 :")))
+    
+    if b == True :
+        break
+    if a == 0 :
+        print(" ah you lost! , try again")
+    
+    
+    
+    
+    
