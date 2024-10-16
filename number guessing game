@@ -18,7 +18,7 @@ def compare(num):
         return True
 
 
-    
+############
 while  a > 0:
     b = compare(int(input("choose a number 1-1000 :")))
     
