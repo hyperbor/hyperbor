@@ -1,6 +1,5 @@
 def alpha(string):
 	alpha = "qwertyuiopasdfghjklzxcvbnm"
-	
 	counter_lower = 0 
 	counter_upper = 0
 
