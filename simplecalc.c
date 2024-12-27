@@ -1,5 +1,3 @@
-// Seied Pourya Seiedi
-// Source Code Soal 2
 
 #include <stdio.h>
 #include <string.h>
